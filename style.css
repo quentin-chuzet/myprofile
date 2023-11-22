@@ -1,0 +1,117 @@
+/* Ajoutez vos styles CSS existants ici */
+
+/* Fonts and colors */
+body {
+  background: rgb(240, 240, 240);
+  color: rgb(30, 30, 30);
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6a71e1;
+}
+
+a {
+  color: #6a71e1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Custom design with classes */
+.banner {
+  text-align: center;
+  color: white;
+  padding: 150px 0;
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 50%), url(images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+}
+
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  color: white;
+  background: #000000;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+.btn-blue:hover {
+  background: #7795f8;
+  color: white;
+}
+
+.intro {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+  padding: 30px;
+  margin: 10px 20px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11);
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #6a71e1;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0 8px;
+}
+
+/* Adjustments with id */
+#features {
+  padding: 64px 0;
+}
